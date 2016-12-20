@@ -1,0 +1,26 @@
+{
+  "name": "tree-sitter-cpp",
+  "version": "0.0.1",
+  "description": "C++ grammar for node-tree-sitter",
+  "main": "index.js",
+  "keywords": [
+    "c++",
+    "cpp",
+    "cxx",
+    "grammar",
+    "parser",
+    "lexer"
+  ],
+  "author": "Thomas Johansen",
+  "license": "MIT",
+  "dependencies": {
+    "nan": "^2.4.0"
+  },
+  "devDependencies": {
+    "tree-sitter-cli": ">= 0.3.6"
+  },
+  "scripts": {
+    "build": "tree-sitter generate && node-gyp build",
+    "test": "tree-sitter test"
+  }
+}

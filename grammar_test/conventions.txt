@@ -1,0 +1,21 @@
+================================================================================
+comments
+================================================================================
+
+// Line comment
+/* Block comment */
+
+// Multi-line
+// line comment
+
+/* Multi-line
+   block comment
+   */
+
+---
+
+(comment
+  (comment)
+  (comment)
+  (comment)
+  (comment))
